@@ -1,0 +1,7 @@
+---
+applications:
+- name: cloud-cron
+  memory: 1M
+  no-route: true
+  buildpack: https://github.com/cloudfoundry/binary-buildpack.git
+
